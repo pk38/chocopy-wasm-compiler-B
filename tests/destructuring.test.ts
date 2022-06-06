@@ -1068,11 +1068,4 @@ a = [2, 4, 6, 8]
 b,c = a[::-1]
 print(b, c)`, [`8`, `6`])
 
-assertPrint("list-slicing-step3", `
-c:int = 0
-a: [int] = None
-a = [2, 4, 6, 8]
-a[0:2],c = [10,11],12
-print(a[0], a[1])`, [`10`, `11`])
-
 });
